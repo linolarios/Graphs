@@ -5,10 +5,9 @@ import java.util.*;
 public class BreadthFirstSearchExampleNeighbourList {
 
     private Queue<Node> queue;
-    static List<Node> nodes = new ArrayList<Node>();
 
     public BreadthFirstSearchExampleNeighbourList() {
-        queue = new LinkedList<Node>();
+        queue = new LinkedList<>();
     }
 
     static class Node {
@@ -18,7 +17,7 @@ public class BreadthFirstSearchExampleNeighbourList {
 
         Node(int data) {
             this.data = data;
-            this.neighbours = new ArrayList<>();
+            this.neighbours = new LinkedList<>();
 
         }
 
