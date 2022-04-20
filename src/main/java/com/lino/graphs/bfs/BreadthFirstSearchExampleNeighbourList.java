@@ -102,8 +102,6 @@ public class BreadthFirstSearchExampleNeighbourList {
 
     private static void setAllinFalse(List<Node> nodes) {
 
-        nodes.forEach(
-                        node -> node.setVisited(false)
-                );
+        nodes.forEach(node -> node.setVisited(false));
     }
 }
